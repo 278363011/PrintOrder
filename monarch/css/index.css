@@ -172,11 +172,15 @@ li {
 
 
 
+.main-pages{
+	margin-top: 50px;
+}
 
 
-
-
-
+table.dataTable.stripe tbody tr.selected,
+table.dataTable.display tbody tr.selected {
+	background-color: #FFCC66;
+}
 
 
 

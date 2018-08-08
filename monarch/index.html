@@ -5,10 +5,11 @@
 		<title>云单通首页</title>
 		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
 		<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
-		<link href="http://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css"/>
-		<link rel="stylesheet" href="css/index.css" />
+		<link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.datatables.net/v/dt/b-1.5.2/b-flash-1.5.2/datatables.min.css"/>
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/icons.css" />
+		<link rel="stylesheet" href="css/index.css" />
 	</head>
 	<body>
 		<!--
@@ -286,14 +287,25 @@
 		               -->
 		        		<div class="main-pages col-sm-10 col-md-10 col-lg-10" >
 		        			
-		        			111111111111111111111111111111
-		        			<table id="example" class="display table table-bordered table-striped table-hover" cellspacing="0" width="100%">
-				             	<thead>
-						       	  xn
-						    	 </thead>
-				   			 </table>
-		        			
-		        			
+		        			<div class="container">
+					   			 <table id="example" class="display table table-bordered table-striped table-hover" cellspacing="0" width="100%">
+					             	<thead>
+							       	 <tr>
+							            <th><input id="totalcheckout" type="checkbox"  /> </th>
+							            <th>状态</th>
+							            <th>订单编号</th>
+							            <th>买家昵称</th>
+							            <th>数量</th>
+							            <th>实付</th>
+							            <th>商品</th>
+							            <th>收货人信息</th>
+							            <th>运单号</th>
+							            <th>打印流水号</th>
+							            <th>详情/操作</th>
+							       	 </tr>
+							    	 </thead>
+					   			 </table>
+							</div>
 		        			
 		        		</div>
         </div>
@@ -312,7 +324,8 @@
         </div>
        	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script src="http://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+		<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+		<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/index.js" ></script>
 		<script>
 			

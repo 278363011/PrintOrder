@@ -162,21 +162,21 @@ $("#chat").on("click",function(){
 
 //中间jquery-table配置
      $('#example').dataTable( {
-//   	 "dom": '<"top"fl>rt<"bottom"pi><"clear">',
-//		 "dom": 'lfrtip',
-         "scrollY": 200,
-         "scrollX": 200,
+     	 "dom": '<"top"i>rt<"bottom"flp><"clear">',
+         "scrollY": true,
+         "scrollX": true,
          "scrollCollapse": true,
    		 "bProcessing" : true, //DataTables载入数据时，是否显示‘进度’提示  
+   		 "bAutoWidth": true,
 //      "bServerSide" : true, //是否启动服务器端数据导入  
 //      "bStateSave" : true, //是否打开客户端状态记录功能,此功能在ajax刷新纪录的时候不会将个性化设定回复为初始化状态  
 //      "bJQueryUI" : true, //是否使用 jQury的UI theme  
-//      "sScrollY" : 450, //DataTables的高  
-//      "sScrollX" : 820, //DataTables的宽  
+        "sScrollY" : 450, //DataTables的高  
+        "sScrollX" : 820, //DataTables的宽  
         "aLengthMenu" : [8, 16, 24], //更改显示记录数选项  
         "iDisplayLength" : 8, //默认显示的记录数  
         "bAutoWidth" : false, //是否自适应宽度  
-        //"bScrollInfinite" : false, //是否启动初始化滚动条  
+          "bScrollInfinite" : false, //是否启动初始化滚动条  
         "bScrollCollapse" : true, //是否开启DataTables的高度自适应，当数据条数不够分页数据条数的时候，插件高度是否随数据条数而改变  
         "bPaginate" : true, //是否显示（应用）分页器  
         "bInfo" : true, //是否显示页脚信息，DataTables插件左下角显示记录数  
@@ -202,15 +202,15 @@ $("#chat").on("click",function(){
 		        } 
  		},
  		//打印组件
-// 		"buttons": {
-// 				name: 'primary',
-//      		buttons: [ 'copy', 'csv', 'excel','pdf' ]
-//  	},
-//  	"dom": 'B<"clear">lfrtip',
-    	//列固定插件
-// 		"fixedColumns": true,
+   		"buttons": {
+   				name: 'primary',
+        		buttons: [ 'copy', 'csv', 'excel','pdf' ]
+    	},
+    	"dom": 'B<"clear">lfrtip',
+//    	列固定插件
+   		"fixedColumns": true,
     	//响应式
-//  	"responsive": true,
+    	"responsive": true,
     	//动态获取ajax数据
 //  		"serverSide": true,
 			"ajax": {
@@ -232,7 +232,12 @@ $("#chat").on("click",function(){
                 {"data": "contact.0"},
                 {"data": "contact.1"},
                 {"data": "hr.start_date"},
-                {"data": "hr.salary"}
+                {"data": "hr.salary"},
+                {"data": "hr.salary"},
+                {"data": "hr.salary"},
+                {"data": "hr.salary"},
+                {"data": "hr.salary"},
+                {"data": "hr.salary"},
             	],
         	"createdRow": function( row, data, dataIndex ) {
             if(data.hr.position.length > 10){//只有超长，才有td点击事件
@@ -279,8 +284,16 @@ $("#chat").on("click",function(){
     }
 
 
+//多选
+ var table = $('#example').DataTable();
+ 
+     $("#example").on("click","tr",function(){
+        $(this).toggleClass('selected');
+    } );
 
-
+    $('#button').click( function () {
+        alert( table.rows('.selected').data().length +' row(s) selected' );
+    } );
 
 
 
