@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/erp文档/1688服务接口/销售对接方案/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/erp文档/1688服务接口/销售对接方案/ocean.client.java.biz.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Desktop/erp文档/1688服务接口/销售对接方案/ocean.client.java.biz-sources.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/com.alibaba.product_alibaba.category.attribute.get-1.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/ocean.client.java.biz.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_areaCode.get-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_trade.order.batch.rate-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_trade.order.modifyOrderPrice-1.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.logistics_alibaba.logistics.myFreightTemplate.create-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.logistics_alibaba.logistics.myFreightTemplate.list.get-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.logistics_alibaba.logistics.myFreightTemplate.update-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.logistics_alibaba.logistics.mySendGoodsAddress.list.get-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.logistics_alibaba.logistics.OpDeliverySendOrder.offline-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.logistics_alibaba.logistics.OpQueryLogisticCompanyList-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.logistics_alibaba.trade.getLogisticsInfos.sellerView-2-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.logistics_alibaba.trade.getLogisticsTraceInfo.sellerView-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.invoice.get-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.order.memoAdd-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.trade.addresscode.get-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.trade.addresscode.getchild-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.trade.cancel-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.trade.fastCreateOrder-1.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.trade.get.sellerView-1.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.trade.getSellerOrderList-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.trade.OpQueryMarketingMixConfig-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.trade.order.PostponeConfirmTime-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.trade.refund.OpAgreeReturnGoods.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.trade.refund.OpQueryBatchRefundByOrderIdAndStatus-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.trade.refund.OpQueryOrderRefund-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.trade.refund.queryOrderRefundList-1.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_member.get-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_convertLoginIdsByMemberIds-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_convertMemberIdsByLoginIds-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_creditInfo.get-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.account_alibaba.account.basic-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.category.attribute.get-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.category.get-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.category.getSPUInfo-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.category.searchByKeyword-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.category.searchSPUInfo-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.product.add-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.product.delete-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.product.edit-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.product.expire-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.product.get-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.product.getByIdList-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.product.getList-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.product.incrementModify-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.product.list.get-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.product.modifyStock-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.product.repost-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.product.republish-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.userCategory.list.get-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.product_alibaba.userDefine.category.add-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-com.alibaba.trade_alibaba.product.getBySellerCargoNumber-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_category.getSelfCatlist-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_category.level.attr.get-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_offerGroup.hasOpened-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_offerGroup.set-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_userCategory.get.offerIds-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_userCategory.offers.add-1-java.jar"/>
+	<classpathentry kind="lib" path="alilibabalib/SDK-cn.alibaba.open_userCategory.offers.remove-1-java.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
