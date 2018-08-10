@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+		<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+		<link href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css" rel="stylesheet">
+		<link href="https://cdn.datatables.net/v/bs/b-1.5.2/b-flash-1.5.2/datatables.min.css"/>
+ 
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/icons.css" />
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+	
+	    <ol class="breadcrumb">
+		  <li><a href="#">首页</a></li>
+		  <li><a href="#">打印发货</a></li>
+		</ol>
+	    
+		<div class="page-header">
+			  <h1><i class="fa fa-print" aria-hidden="true"></i><small>打印发货</small></h1>
+		</div>
+		<div style="margin-bottom: 30px;">
+				<div class="btn-group" role="group" style="display: inline-block;">
+			    <button type="button" class="btn  btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			         请选择服务平台
+			      <span class="caret"></span>
+			    </button>
+			    <ul class="dropdown-menu" id="servershop">
+			      <li><a href="#">1688服务市场</a></li>
+			      <li><a href="#">淘宝</a></li>
+			      <li><a href="#">天猫</a></li>
+			      <li><a href="#">拼多多</a></li>
+			      <li><a href="#">微掌柜</a></li>
+			    </ul>
+			  </div>
+    <h1 id="platfont" class="" style="display: inline-block;"> 1688服务市场</h1>
+		
+		</div>
+	    
+				
+	   			 <table id="printshipping" class="display table table-bordered table-striped table-hover" cellspacing="0" width="100%">
+	             	<thead>
+			       	 <tr>
+			            <th><input id="totalcheckout" type="checkbox"  /> </th>
+			            <th>状态</th>
+			            <th>订单编号</th>
+			            <th>买家昵称</th>
+			            <th>数量</th>
+			            <th>实付</th>
+			            <th>商品</th>
+			            <th>收货人信息</th>
+			            <th>运单号</th>
+			            <th>打印流水号</th>
+			            <th>详情/操作</th>
+			       	 </tr>
+			    	 </thead>
+	   			 </table>
+	   			 <div>
+	   			 	
+	   			 	
+	   			 </div>
+
+	</body>
+	 	<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+		<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://cdn.datatables.net/v/bs/b-1.5.2/b-flash-1.5.2/datatables.min.js"></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+</html>
